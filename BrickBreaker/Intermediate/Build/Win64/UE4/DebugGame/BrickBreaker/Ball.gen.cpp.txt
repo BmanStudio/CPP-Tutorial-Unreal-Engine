@@ -1,0 +1,5 @@
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4\DebugGame\BrickBreaker\Definitions.BrickBreaker.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Source\BrickBreaker/Ball.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4\Inc\BrickBreaker\Ball.generated.h

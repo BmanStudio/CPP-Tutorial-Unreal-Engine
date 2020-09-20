@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BrickBreaker-0004.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\BrickBreakerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BrickBreaker.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BrickBreakerGameModeBase.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Paddle.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Paddle_Player_Controller.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BrickBreaker.init.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BrickBreakerGameModeBase.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Paddle.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Paddle_Player_Controller.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Default.rc2.res"
+/OUT:"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\UE4Editor-BrickBreaker-0004.lib"
+/INCLUDE:IMPLEMENT_MODULE_BrickBreaker

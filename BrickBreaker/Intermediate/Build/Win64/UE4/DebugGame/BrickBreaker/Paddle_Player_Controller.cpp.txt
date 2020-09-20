@@ -1,0 +1,18 @@
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4\DebugGame\BrickBreaker\Definitions.BrickBreaker.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Source\BrickBreaker\Paddle_Player_Controller.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Source\BrickBreaker\Paddle.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4\Inc\BrickBreaker\Paddle.generated.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4\Inc\BrickBreaker\Paddle_Player_Controller.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\CollisionProfile.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameplayStatics.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\CameraActor.generated.h

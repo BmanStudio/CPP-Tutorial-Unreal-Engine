@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BrickBreaker",
+			"Path": "C:\\Dev\\Unreal Engine 4\\CPP Tutorial\\BrickBreaker\\Source\\BrickBreaker.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BrickBreakerEditor",
+			"Path": "C:\\Dev\\Unreal Engine 4\\CPP Tutorial\\BrickBreaker\\Source\\BrickBreakerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

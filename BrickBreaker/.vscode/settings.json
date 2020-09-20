@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"C:/Dev/Unreal Engine 4/CPP Tutorial/BrickBreaker/.vs": true,
+		"C:/Dev/Unreal Engine 4/CPP Tutorial/BrickBreaker/.vscode": true,
+		"C:/Dev/Unreal Engine 4/CPP Tutorial/BrickBreaker/Content": true,
+		"C:/Dev/Unreal Engine 4/CPP Tutorial/BrickBreaker/DerivedDataCache": true,
+		"C:/Dev/Unreal Engine 4/CPP Tutorial/BrickBreaker/Intermediate": true,
+		"C:/Dev/Unreal Engine 4/CPP Tutorial/BrickBreaker/Saved": true
+	}
+}

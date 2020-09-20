@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FirstCPPGame",
+			"Path": "C:\\Dev\\Unreal Engine 4\\CPP Tutorial\\FirstCPPGame\\Source\\FirstCPPGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FirstCPPGameEditor",
+			"Path": "C:\\Dev\\Unreal Engine 4\\CPP Tutorial\\FirstCPPGame\\Source\\FirstCPPGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
