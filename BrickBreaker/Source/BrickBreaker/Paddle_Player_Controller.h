@@ -5,12 +5,10 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 
-#include "Paddle.h"
-
 #include "Paddle_Player_Controller.generated.h"
 
-//class ABall;
-
+class APaddle;
+class ABall;
 UCLASS()
 class BRICKBREAKER_API APaddle_Player_Controller : public APlayerController
 {
@@ -29,7 +27,25 @@ protected:
 
 	void MoveHorizontal(float AxisValue);
 
+	/**
+	 * Instance of the main player object - the paddle
+	 */
+	// ReSharper disable once CppUE4ProbableMemoryIssuesWithUObject
 	APaddle* Paddle;
 
-	// Ball refrences
+	
+	// Ball references
+	void Launch();
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<ABall> BallObj;
+
+	ABall* MyBall;
+
+	FVector SpawnLocation = FVector(10.0f, 0.0f, 40.0f);
+	FRotator SpawnRotation = FRotator(0.0f, 0.0f, 0.0f);
+	FActorSpawnParameters SpawnInfo;
+
+public:
+	void SpawnNewBall();
 };

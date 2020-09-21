@@ -46,8 +46,8 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-BrickBreaker/Binaries/*
-BrickBreaker/Plugins/*/Binaries/*
+*/Binaries/*
+*/Plugins/*/Binaries/*
 
 # Builds
 Build/*

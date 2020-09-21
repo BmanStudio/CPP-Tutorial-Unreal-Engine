@@ -19,7 +19,7 @@ public:
 
 	virtual void Launch();
 
-	bool BallLaunched;
+	bool bBallLaunched;
 
 protected:
 	// Called when the game starts or when spawned

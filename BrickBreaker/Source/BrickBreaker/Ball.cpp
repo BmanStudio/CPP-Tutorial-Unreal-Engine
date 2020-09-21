@@ -16,11 +16,16 @@ ABall::ABall()
 	RootComponent = SM_Ball;
 
 	SM_Ball->SetSimulatePhysics(true);
-	SM_Ball->SetEnableGravity(true);
+	SM_Ball->SetEnableGravity(false);
 	SM_Ball->SetConstraintMode(EDOFMode::XZPlane);
 	SM_Ball->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	SM_Ball->SetCollisionProfileName(TEXT("PhysicsActor"));
 
+	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
+	ProjectileMovement->bShouldBounce = true;
+	ProjectileMovement->Bounciness = 1.1f;
+	ProjectileMovement->Friction = 0.0f;
+	ProjectileMovement->Velocity.X = 0.0f;
 }
 
 
@@ -40,11 +45,13 @@ void ABall::Tick(float DeltaTime)
 
 void ABall::Launch()
 {
+	SM_Ball->AddImpulse(FVector(140.0f, 0.0f, 130.0f), FName(), true);
 
+	bBallLaunched = true;
 }
 
 UStaticMeshComponent* ABall::GetBall()
 {
-	return nullptr;
+	return SM_Ball;
 }
 

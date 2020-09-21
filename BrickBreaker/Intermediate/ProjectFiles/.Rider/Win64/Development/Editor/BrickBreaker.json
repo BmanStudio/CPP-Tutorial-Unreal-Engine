@@ -194,6 +194,38 @@
 			]
 		},
 		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderLink.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"RiderLink",
+				"RD"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderLoggingExtension.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"RiderLoggingExtension",
+				"RD"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderBlueprintExtension.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"RiderBlueprintExtension",
+				"RD"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderGameControlExtension.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"RiderGameControlExtension",
+				"RD"
+			]
+		},
+		{
 			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderSourceCodeAccess\\Binaries\\Win64\\UE4Editor-RiderSourceCodeAccess.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
@@ -4723,6 +4755,200 @@
 			],
 			"ShouldAddLegacyPublicIncludePaths": false,
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\PlasticSourceControl\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\PlasticSourceControl",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"RiderLink": 
+		{
+			"Name": "RiderLink",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"RD"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol\\RdEditorModel",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol\\RdEditorRoot",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol\\UE4Library"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"RIDERLINK_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderLink",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Core\\Public\\CoreSharedPCH.h"
+		},
+		"RD": 
+		{
+			"Name": "RD",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_core_cpp",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_core_cpp\\lifetime",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_core_cpp\\reactive",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_core_cpp\\std",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_core_cpp\\types",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_core_cpp\\util",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_core_cpp\\reactive\\base",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\base",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\ext",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\impl",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\intern",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\scheduler",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\serialization",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\task",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\util",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\wire",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\rd_framework_cpp\\scheduler\\base",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\thirdparty",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\thirdparty\\clsocket",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\thirdparty\\mpark",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\thirdparty\\nonstd",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\thirdparty\\optional",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\thirdparty\\tsl",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\thirdparty\\clsocket\\src",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\include\\thirdparty\\optional\\tl"
+			],
+			"PublicAdditionalLibraries": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\rd_framework_cpp.lib",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\clsocket.lib",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\rd_core_cpp.lib",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\spdlog.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"_WIN32",
+				"_WINSOCK_DEPRECATED_NO_WARNINGS",
+				"SPDLOG_COMPILED_LIB",
+				"nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false
+		},
+		"RiderLoggingExtension": 
+		{
+			"Name": "RiderLoggingExtension",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\RiderLoggingExtension.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"RD",
+				"RiderLink",
+				"RiderBlueprintExtension"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"RIDERLOGGINGEXTENSION_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderLoggingExtension",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Core\\Public\\CoreSharedPCH.h"
+		},
+		"RiderBlueprintExtension": 
+		{
+			"Name": "RiderBlueprintExtension",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\RiderBlueprintExtension.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"SlateCore",
+				"RD",
+				"RiderLink",
+				"Slate",
+				"AssetRegistry",
+				"MessagingCommon",
+				"UnrealEd",
+				"UnrealEdMessages",
+				"Engine",
+				"CoreUObject"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"RIDERBLUEPRINTEXTENSION_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderBlueprintExtension",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"RiderGameControlExtension": 
+		{
+			"Name": "RiderGameControlExtension",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\RiderGameControlExtension.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"RD",
+				"RiderLink",
+				"HeadMountedDisplay",
+				"LevelEditor",
+				"UnrealEd",
+				"Slate",
+				"CoreUObject",
+				"Engine"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"RIDERGAMECONTROLEXTENSION_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderGameControlExtension",
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
 		},
 		"RiderSourceCodeAccess": 
@@ -29188,6 +29414,17 @@
 			"Type": "Engine",
 			"Modules": [
 				"PlasticSourceControl"
+			]
+		},
+		"RiderLink": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\RiderLink.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"RiderLink",
+				"RiderLoggingExtension",
+				"RiderBlueprintExtension",
+				"RiderGameControlExtension"
 			]
 		},
 		"RiderSourceCodeAccess": 

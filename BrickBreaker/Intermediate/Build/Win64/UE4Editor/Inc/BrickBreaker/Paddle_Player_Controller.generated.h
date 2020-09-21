@@ -13,18 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BRICKBREAKER_Paddle_Player_Controller_generated_h
 
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_SPARSE_DATA
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_RPC_WRAPPERS \
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_SPARSE_DATA
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetupInputComponent);
 
 
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetupInputComponent);
 
 
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_INCLASS_NO_PURE_DECLS \
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPaddle_Player_Controller(); \
 	friend struct Z_Construct_UClass_APaddle_Player_Controller_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(APaddle_Player_Controller)
 
 
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_INCLASS \
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAPaddle_Player_Controller(); \
 	friend struct Z_Construct_UClass_APaddle_Player_Controller_Statics; \
@@ -42,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(APaddle_Player_Controller)
 
 
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_STANDARD_CONSTRUCTORS \
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APaddle_Player_Controller(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APaddle_Player_Controller) \
@@ -55,7 +55,7 @@ private: \
 public:
 
 
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_ENHANCED_CONSTRUCTORS \
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APaddle_Player_Controller(APaddle_Player_Controller&&); \
@@ -66,28 +66,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APaddle_Player_Controller); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APaddle_Player_Controller)
 
 
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_PRIVATE_PROPERTY_OFFSET
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_14_PROLOG
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_GENERATED_BODY_LEGACY \
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__BallObj() { return STRUCT_OFFSET(APaddle_Player_Controller, BallObj); }
+
+
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_12_PROLOG
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_PRIVATE_PROPERTY_OFFSET \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_SPARSE_DATA \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_RPC_WRAPPERS \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_INCLASS \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_STANDARD_CONSTRUCTORS \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_PRIVATE_PROPERTY_OFFSET \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_SPARSE_DATA \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_RPC_WRAPPERS \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_INCLASS \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_GENERATED_BODY \
+#define BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_PRIVATE_PROPERTY_OFFSET \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_SPARSE_DATA \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_INCLASS_NO_PURE_DECLS \
-	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_17_ENHANCED_CONSTRUCTORS \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_PRIVATE_PROPERTY_OFFSET \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_SPARSE_DATA \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_INCLASS_NO_PURE_DECLS \
+	BrickBreaker_Source_BrickBreaker_Paddle_Player_Controller_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

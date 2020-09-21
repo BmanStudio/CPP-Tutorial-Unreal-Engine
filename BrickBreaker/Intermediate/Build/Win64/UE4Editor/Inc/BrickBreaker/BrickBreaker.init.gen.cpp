@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBrickBreaker_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x599BDA76,
+				0xE637FB6F,
 				0x6E526C70,
 				METADATA_PARAMS(nullptr, 0)
 			};
