@@ -30,29 +30,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b7f06eb-6f4f-4429-884f-12c18fe38d7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/BrickBreaker/BallBound.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/BrickBreaker/BallBound.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrickBreaker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrickBreaker/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrickBreaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrickBreaker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Ball_BP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Ball_BP.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Paddle_PlayerController_BP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Paddle_PlayerController_BP.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/Gameplay.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Gameplay.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Materials/Bouncy_Material.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Materials/Bouncy_Material.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/ActionHistory.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/DebugGame/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/DebugGame/DependencyCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/DebugGame/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/DebugGame/Makefile.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/DebugGame/Metadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/DebugGame/Metadata.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/BrickBreakerEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/BrickBreakerEditor.uhtmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/HotReload.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BrickBreakerEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/Paddle_Player_Controller.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/Paddle_Player_Controller.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/Paddle_Player_Controller.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/Paddle_Player_Controller.gen.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/UE4Editor-BrickBreaker-Win64-DebugGame.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/UE4Editor-BrickBreaker-Win64-DebugGame.dll.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/UE4Editor-BrickBreaker-Win64-DebugGame.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/UE4Editor-BrickBreaker-Win64-DebugGame.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/UE4Editor-BrickBreaker-Win64-DebugGame.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/UE4Editor-BrickBreaker-Win64-DebugGame.lib.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/UE4Editor-BrickBreaker-Win64-DebugGame.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/BrickBreaker/UE4Editor-BrickBreaker-Win64-DebugGame.suppressed.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker-0036.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker-0036.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker-0036.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker-0036.lib.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker.dll.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker.dll.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BrickBreaker/UE4Editor-BrickBreaker.lib.response" afterDir="false" />
@@ -60,17 +50,20 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BrickBreaker/BrickBreaker.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BrickBreaker/BrickBreaker.init.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BrickBreaker/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BrickBreaker/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/BrickBreaker.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/BrickBreaker.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/BrickBreaker.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/BrickBreaker.vcxproj.filters" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-979150BF4F886E39A7F4AE8B624CC4A2/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-99D69E9247967781911BBE804D20B8DD/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D4B8D15447AA33A0370EA183DEBA6973/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/BrickBreaker.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/BrickBreaker.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BrickBreaker_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/BrickBreaker_2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/BrickBreaker/Ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BrickBreaker/Ball.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/BrickBreaker/Brick.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BrickBreaker/Brick.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/BrickBreaker/Paddle_Player_Controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BrickBreaker/Paddle_Player_Controller.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/BrickBreaker/Paddle_Player_Controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BrickBreaker/Paddle_Player_Controller.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +89,13 @@
       <list>
         <option value="$PROJECT_DIR$/Source/BrickBreaker/Paddle.cpp" />
         <option value="$PROJECT_DIR$/Source/BrickBreaker/Ball.h" />
-        <option value="$PROJECT_DIR$/Source/BrickBreaker/Paddle_Player_Controller.h" />
         <option value="$PROJECT_DIR$/Source/BrickBreaker/Ball.cpp" />
-        <option value="$PROJECT_DIR$/Source/BrickBreaker/Paddle_Player_Controller.cpp" />
         <option value="$PROJECT_DIR$/Source/BrickBreaker/Brick.h" />
         <option value="$PROJECT_DIR$/Source/BrickBreaker/Brick.cpp" />
+        <option value="$PROJECT_DIR$/Source/BrickBreaker/Paddle_Player_Controller.h" />
+        <option value="$PROJECT_DIR$/Source/BrickBreaker/BallBound.h" />
+        <option value="$PROJECT_DIR$/Source/BrickBreaker/Paddle_Player_Controller.cpp" />
+        <option value="$PROJECT_DIR$/Source/BrickBreaker/BallBound.cpp" />
       </list>
     </option>
   </component>
@@ -349,7 +344,7 @@
       <updated>1600617606891</updated>
       <workItem from="1600617619309" duration="1475000" />
       <workItem from="1600675295544" duration="6286000" />
-      <workItem from="1600769279641" duration="6249000" />
+      <workItem from="1600769279641" duration="9011000" />
     </task>
     <task id="LOCAL-00001" summary="Branching to Dev branch">
       <created>1600680326452</created>
@@ -358,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600680326452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added:&#10;Ball, bricks, physics behaviour.&#10;Left to do:&#10;Dead when ball surpassing the paddle.">
+      <created>1600778102998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600778102998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,77 +408,78 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Branching to Dev branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Branching to Dev branch" />
+    <MESSAGE value="Added:&#10;Ball, bricks, physics behaviour.&#10;Left to do:&#10;Dead when ball surpassing the paddle." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;Ball, bricks, physics behaviour.&#10;Left to do:&#10;Dead when ball surpassing the paddle." />
   </component>
   <component name="WindowStateProjectService">
     <state x="532" y="114" key="#xdebugger.XInspectDialog" timestamp="1600771535769">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="532" y="114" key="#xdebugger.XInspectDialog/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771535769" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1600771608115">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1600787821658">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771608115" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1600771608115">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821658" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1600787821658">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771608115" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1600771608115">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821658" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1600787821658">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771608115" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1600771608115">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821658" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1600787821658">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771608115" />
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1600771573231">
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821658" />
+    <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.1.center" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.1.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.1.center" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.1.left" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.1.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.1.left" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.1.right" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.1.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.1.right" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.2.bottom" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.1.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.2.bottom" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.2.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.2.center" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.2.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.2.center" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.2.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.2.left" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.2.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.2.left" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.2.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.2.right" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.2.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.2.right" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.2.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.3.bottom" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.2.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.3.bottom" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.3.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.3.center" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.3.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.3.center" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.3.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.3.left" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.3.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.3.left" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.3.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
-    <state width="1237" height="247" key="GridCell.Tab.3.right" timestamp="1600771573231">
+    <state width="1237" height="247" key="GridCell.Tab.3.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
+    <state width="1237" height="247" key="GridCell.Tab.3.right" timestamp="1600787821653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.3.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600771573231" />
+    <state width="1237" height="247" key="GridCell.Tab.3.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1600787821653" />
     <state x="142" y="5" key="SettingsEditor" timestamp="1600677322071">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

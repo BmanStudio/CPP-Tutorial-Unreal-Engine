@@ -48,4 +48,5 @@ protected:
 
 public:
 	void SpawnNewBall();
+	void BallDestroyed();
 };

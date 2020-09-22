@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BrickBreaker.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0A090769-1246-43DA-8A8B-314D50F69DD6}</UniqueIdentifier>
+      <UniqueIdentifier>{383D4139-E473-4A9F-8CAD-98752098AC2D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BrickBreaker.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\BrickBreaker.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{91CDE00D-B184-42E7-A0C9-65BA0D58ADCC}</UniqueIdentifier>
+      <UniqueIdentifier>{0FEF8EC5-347D-40FD-B06B-808B81D6300C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,12 +31,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BrickBreaker">
-      <UniqueIdentifier>{FCA292B7-C182-45A9-8586-1CC7A618296D}</UniqueIdentifier>
+      <UniqueIdentifier>{4A7C320B-8F20-42DF-BA9D-67013B6F587B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BrickBreaker\Ball.cpp">
       <Filter>Source\BrickBreaker</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BrickBreaker\Ball.h">
+      <Filter>Source\BrickBreaker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BrickBreaker\BallBound.cpp">
+      <Filter>Source\BrickBreaker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BrickBreaker\BallBound.h">
       <Filter>Source\BrickBreaker</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BrickBreaker\Brick.cpp">

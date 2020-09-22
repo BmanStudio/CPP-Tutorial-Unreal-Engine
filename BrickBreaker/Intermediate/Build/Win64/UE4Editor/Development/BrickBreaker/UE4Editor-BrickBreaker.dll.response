@@ -35,6 +35,7 @@
 /FUNCTIONPADMIN
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\BrickBreakerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Ball.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BallBound.cpp.obj"
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Brick.cpp.obj"
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BrickBreaker.cpp.obj"
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BrickBreakerGameModeBase.cpp.obj"
@@ -42,6 +43,7 @@
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Paddle.cpp.obj"
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Paddle_Player_Controller.cpp.obj"
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Ball.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BallBound.gen.cpp.obj"
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\Brick.gen.cpp.obj"
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BrickBreaker.init.gen.cpp.obj"
 "C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Development\BrickBreaker\BrickBreakerGameModeBase.gen.cpp.obj"

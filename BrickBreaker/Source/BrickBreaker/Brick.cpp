@@ -39,12 +39,8 @@ void ABrick::Tick(float DeltaTime)
 void ABrick::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
 	int32 OtherBodyIndexType, bool bFromSweep, const FHitResult& SweepResult)
 {
-	if(GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Overlap - ANY"));    
 	if (OtherActor->ActorHasTag("Ball"))
 	{
-		if(GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Overlap - Ball")); 
 		ABall* MyBall = Cast<ABall>(OtherActor);
 
 		FVector BallVelocity = MyBall->GetVelocity();

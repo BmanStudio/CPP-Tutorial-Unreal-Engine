@@ -68,3 +68,8 @@ void APaddle_Player_Controller::SpawnNewBall()
 		MyBall = GetWorld()->SpawnActor<ABall>(BallObj, SpawnLocation, SpawnRotation, SpawnInfo);
 	}
 }
+
+void APaddle_Player_Controller::BallDestroyed()
+{
+	MyBall = nullptr;
+}

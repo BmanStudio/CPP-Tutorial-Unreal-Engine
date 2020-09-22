@@ -24,6 +24,8 @@
         <e p="BrickBreaker" t="Include">
           <e p="Ball.cpp" t="Include" />
           <e p="Ball.h" t="Include" />
+          <e p="BallBound.cpp" t="Include" />
+          <e p="BallBound.h" t="Include" />
           <e p="Brick.cpp" t="Include" />
           <e p="Brick.h" t="Include" />
           <e p="BrickBreaker.Build.cs" t="Include" />
