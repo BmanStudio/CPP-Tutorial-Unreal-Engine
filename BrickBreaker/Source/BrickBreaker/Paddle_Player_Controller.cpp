@@ -26,6 +26,8 @@ void APaddle_Player_Controller::BeginPlay()
 	SetViewTarget(CameraActors[0], Params);
 
 	Paddle = Cast<APaddle>(UGameplayStatics::GetActorOfClass(GetWorld(), APaddle::StaticClass()));
+
+	if (!MyBall) { SpawnNewBall(); }
 }
 
 void APaddle_Player_Controller::SetupInputComponent()
@@ -46,6 +48,11 @@ void APaddle_Player_Controller::MoveHorizontal(float AxisValue)
 
 void APaddle_Player_Controller::Launch()
 {
+	if (!MyBall)
+	{
+		SpawnNewBall();
+		return;
+	}
 	MyBall->Launch();
 }
 
@@ -57,7 +64,7 @@ void APaddle_Player_Controller::SpawnNewBall()
 	}
 
 	if (BallObj)
-	{
+	{ 
 		MyBall = GetWorld()->SpawnActor<ABall>(BallObj, SpawnLocation, SpawnRotation, SpawnInfo);
 	}
 }

@@ -1,7 +1,5 @@
 C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\DebugGame\BrickBreaker\Definitions.BrickBreaker.h
 C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Source\BrickBreaker\Paddle_Player_Controller.h
-C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Source\BrickBreaker\Paddle.h
-C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Inc\BrickBreaker\Paddle.generated.h
 C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Inc\BrickBreaker\Paddle_Player_Controller.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
@@ -16,3 +14,7 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Source\BrickBreaker\Paddle.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Inc\BrickBreaker\Paddle.generated.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Source\BrickBreaker\Ball.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Inc\BrickBreaker\Ball.generated.h
