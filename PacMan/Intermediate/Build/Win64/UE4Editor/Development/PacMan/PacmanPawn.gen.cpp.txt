@@ -1,5 +1,0 @@
-C:\Dev\Unreal Engine 4\CPP Tutorial\PacMan\Intermediate\Build\Win64\UE4Editor\Development\PacMan\Definitions.PacMan.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Dev\Unreal Engine 4\CPP Tutorial\PacMan\Source\PacMan/PacmanPawn.h
-C:\Dev\Unreal Engine 4\CPP Tutorial\PacMan\Intermediate\Build\Win64\UE4Editor\Inc\PacMan\PacmanPawn.generated.h
