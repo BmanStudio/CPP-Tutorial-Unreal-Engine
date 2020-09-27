@@ -1,0 +1,9 @@
+C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\Definitions.FirstCPPGame.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Source\FirstCPPGame\BatteryMan_GameMode.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Inc\FirstCPPGame\BatteryMan_GameMode.generated.h

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Dev\\Unreal Engine 4\\CPP Tutorial\\BrickBreaker\\Source\\BrickBreaker\\BrickBreaker.Build.cs",
+		"C:\\Dev\\Unreal Engine 4\\CPP Tutorial\\BrickBreaker\\Source\\BrickBreaker.Target.cs",
+		"C:\\Dev\\Unreal Engine 4\\CPP Tutorial\\BrickBreaker\\Source\\BrickBreakerEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

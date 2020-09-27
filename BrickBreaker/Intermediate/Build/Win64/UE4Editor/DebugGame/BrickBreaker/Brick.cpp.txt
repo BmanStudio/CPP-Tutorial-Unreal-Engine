@@ -1,0 +1,3 @@
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\DebugGame\BrickBreaker\Definitions.BrickBreaker.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Source\BrickBreaker\Brick.h
+C:\Dev\Unreal Engine 4\CPP Tutorial\BrickBreaker\Intermediate\Build\Win64\UE4Editor\Inc\BrickBreaker\Brick.generated.h

@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FirstCPPGame-0024.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\FirstCPPGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\BatteryMan.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\BatteryMan_GameMode.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\FirstCPPGame.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\FirstCPPGameCharacter.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\FirstCPPGameGameMode.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\BatteryMan.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\BatteryMan_GameMode.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\FirstCPPGame.init.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\FirstCPPGameCharacter.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\FirstCPPGameGameMode.gen.cpp.obj"
+"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\Default.rc2.res"
+/OUT:"C:\Dev\Unreal Engine 4\CPP Tutorial\FirstCPPGame\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGame\UE4Editor-FirstCPPGame-0024.lib"
+/INCLUDE:IMPLEMENT_MODULE_FirstCPPGame
